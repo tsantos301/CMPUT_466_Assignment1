@@ -1,0 +1,22 @@
+pre{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    padding: 10px;
+    /*text-align: center;*/
+}
+
+iframe{
+    display:block;
+    margin: 0 auto;
+}
+

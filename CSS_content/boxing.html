@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>Box Model:</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body >
+
+<div name = "navigation">
+    <ul class = "nav">
+        <li><a href=../index.html>Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="../HTML.html">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="../Quiz's/quiz.html">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="#">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="#home">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= ../CSS_content/syntax.html>Syntax</a>
+                <a href= ../CSS_content/backgrounds.html>Backgrounds</a>
+                <a href=../CSS_content/marginsPadding.html>Margins and Padding</a>
+                <a href=../CSS_content/heightWidth.html>Height and Width</a>
+                <a href=../CSS_content/boxing.html>Boxing Methodology</a>
+                <a href=../CSS_content/fonts.html>Fonts</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Advanced:</a>
+            <div class="dropdown-content">
+                <a href=../CSS_content/animations.html>Animations</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<br>
+
+<h1 id="h1">Box Model:</h1>
+<p id="main">
+    All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
+    <br><br>
+    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+    <br><strong>For example:</strong>
+
+    <br><br>
+</p>
+<h2>Box Model Overview:</h2>
+<div class="no_resize" style="padding-bottom: 150px;">
+    <ul>
+        <li> <strong> Content </strong>  - The content of the box, where text and images appear</li>
+        <li> <strong> Padding</strong> - Clears an area around the content. The padding is transparent</li>
+        <li> <strong> Border </strong> - A border that goes around the padding and content</li>
+        <li>  <strong> Margin </strong> - Clears an area outside the border. The margin is transparent</li>
+    </ul>
+</div>
+<p><br><br>The box model allows us to add a border around elements, and to define space between elements. </p>
+<xmp>
+    <style>
+        div {
+            height: 200px;
+            width: 50%;
+            background-color: powderblue;
+        }
+    </style>
+</xmp>
+<iframe src="../CSS_examples/heightWidth.html" style="width:1000px;height:600px;"></iframe>
+<h1>Setting the maximum width of an element:</h1>
+<p id="main">
+    The main use of max width is when the browser window is actually smaller than the width of the element. <br>
+    The browser then adds a horizontal scrollbar to the page for the user to view the element.
+    <br>
+    Using max-width instead, in this situation, will improve the browser's handling of small windows.
+</p>
+<xmp>
+    div {
+    max-width: 1000px;
+    height: 200px;
+    background-color: blue;
+    }
+</xmp>
+</body>
+</html>
+

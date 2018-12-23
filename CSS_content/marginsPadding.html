@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>Margins and Padding</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+
+<div name = "navigation">
+    <ul class = "nav">
+        <li><a href=../index.html>Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="../HTML.html">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="../Quiz's/quiz.html">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="#">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="#home">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= ../CSS_content/syntax.html>Syntax</a>
+                <a href= ../CSS_content/backgrounds.html>Backgrounds</a>
+                <a href=../CSS_content/marginsPadding.html>Margins and Padding</a>
+                <a href=../CSS_content/heightWidth.html>Height and Width</a>
+                <a href=../CSS_content/boxing.html>Boxing Methodology</a>
+                <a href=../CSS_content/fonts.html>Fonts</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Advanced:</a>
+            <div class="dropdown-content">
+                <a href=../CSS_content/animations.html>Animations</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<br>
+
+<h1 id="h1">Margins and Padding:</h1>
+<h2>Margins: </h2>
+<p id="main">
+    The CSS margin properties are used to create space around elements, <strong>outside of any defined borders.</strong>
+    <br><br>
+    With CSS, you have full control over the margins. There are properties for setting the margin for each
+    side of an element (top, right, bottom, and left).
+</p>
+<br>
+<xmp>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            #changedMargins{
+                border: 1px solid black;
+                margin-top: 300px;
+                margin-bottom: 300px;
+                margin-right: 100px;
+                margin-left: 0px;
+                background-color: lightyellow;
+
+            }
+            div {
+                border: 1px solid black;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-right: 150px;
+                margin-left: 80px;
+                background-color: lightgreen;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+
+    <h2 style="text-align: center;">Adjusting Margins of divisions to Illustrate Margin Properties</h2>
+
+    <div>This is the first Division</div>
+
+    <div id="changedMargins">This is the second Division with different margin styling.</div>
+
+    </body>
+    </html>
+</xmp>
+<iframe src="../CSS_examples/margins.html" style="width:1000px;height:600px;"></iframe>
+
+<h2>Margin properties Overview:</h2>
+<div class="no_resize" style="padding-bottom: 150px;">
+    <ul>
+        <li> <strong> auto </strong>  - the browser calculates the margin</li>
+        <li> <strong> length {}</strong> - specifies a margin in px, pt, cm, etc.</li>
+        <li> <strong> % </strong> - specifies a margin in % of the width of the containing element</li>
+        <li>  <strong> inherit </strong> - specifies that the margin should be inherited from the parent element</li>
+    </ul>
+</div>
+<br>
+<h2>Padding: </h2>
+<p id="main">
+    The CSS padding properties are used to create space around an elements <strong>content</strong>, <strong>outside of any defined borders.</strong>
+    <br><br>
+    With CSS, you have full control over padding. There are properties for setting the padding for each
+    side of an element (top, right, bottom, and left).
+
+<h3> Note: The padding properties are the same as the Margin properties above with the exception of no "auto" property.</h3>
+
+<xmp>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            #changedPadding{
+                border: 1px solid black;
+                padding-top: 300px;
+                padding-bottom: 300px;
+                padding-right: 100px;
+                padding-left: 0px;
+                background-color: lightyellow;
+
+            }
+            div {
+                border: 1px solid black;
+                padding-top: 100px;
+                padding-bottom: 100px;
+                padding-right: 150px;
+                padding-left: 80px;
+                background-color: lightgreen;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+
+    <h2 style="text-align: center;">Adjusting Padding of divisions to Illustrate Padding Properties</h2>
+
+    <div>This is the first Division</div>
+
+    <div id="changedPadding">This is the second Division with different margin styling.</div>
+
+    </body>
+    </html>
+</xmp>
+<iframe src="../CSS_examples/padding.html" style="width:1000px;height:600px;margin-bottom: 200px;"></iframe>
+</body>
+</html>
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>HTML Tutorial</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+
+<div name = "navigation">
+    <ul class="nav">
+        <li><a href="http://localhost:63342/Assignment_1/index.html?_ijt=8h0rr6pd8gat8lbct8n0ka5dc7#">Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="http://localhost:63342/Assignment_1/HTML.html?_ijt=8h0rr6pd8gat8lbct8n0ka5dc7">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="#">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="#">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="#home">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= ../HTML_content/helloWorld.html>Hello World</a> <!--<a onclick="dispHelloWorld();" href=../CSS_content/animations.html>Hello World</a>-->
+                <a href= ../HTML_content/documentTypes.html>Document Types</a>
+                <a href=../HTML_content/commentsTags.html>Comments and Tags</a>
+
+                <a href=../HTML_content/links.html>Links</a>
+
+                <a href=../HTML_content/paraLists.html>Paragraphs and Lists</a>
+                <a href=../HTML_content/tables.html>Tables</a>
+                <a href=../HTML_content/forms.html>Forms</a>
+
+            </div>
+        </li>
+
+    </ul>
+</div>
+<br>
+
+<h1>Links and Images:</h1>
+<p>
+    One of the most important HTML5 features is the hyperlink, which references other resources, such as
+    HTML5 documents and images. When a user clicks a hyperlink, the browser tries to execute an action associated with
+    it (for example, navigate to a URL or open an e-mail client). Any displayed element can act as a hyperlink. Web
+    browsers typically underline text hyperlinks and color their text blue by default so that users can distinguish
+    hyperlinks from plain text. <strong>Below is an example of creating hyperlinks:</strong>
+</p>
+<xmp class="example">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Exercise 2.8 </title>
+    </head>
+
+    <body>
+    <h1> My Favorite Daily Deals </h1>
+    <ul>
+        <li><a href = "http://www.amazon.ca"> Amazon</a></li>
+        <li><a href = "http://www.ebay.ca"> eBay </a> </li>
+        <li><a href = "http://www.aliexpress.com"> Aliexpress </a></li>
+    </ul>
+
+    <body/>
+
+    <html/>
+
+</xmp>
+
+Running the above code gives us:
+<iframe src="../HTML_examples/2.8.html" style="width:500px;height:200px;"></iframe>
+<p align="middle">Open the iFrame in a new window to use the links</p>
+<br>
+<h2>Images: </h2>
+<p> To simply display an image in an HTML document, one must find a suitable image and place it in the
+same directory as the html source file. Once this is complete the image can be emebedded in the page
+using the following:
+</p>
+<xmp class="example">
+    <img src="image_name.image_extension" alt="Text to use as a placeholder incase the image is not found.">
+</xmp>
+
+<p>
+To adjust the width, height or style of an image one simply uses the following attributes:
+</p>
+
+<xmp class="example"><img src="../HTML_examples/Apple.png" alt="Apple Classic Icon" width="128px" height="128px"></xmp>
+
+<iframe src="../HTML_examples/appleEx.html"></iframe>
+
+
+
+</html>

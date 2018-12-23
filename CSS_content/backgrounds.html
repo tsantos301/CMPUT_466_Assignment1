@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>Backgrounds:</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body id="backgrounds">
+
+<div name = "navigation">
+    <ul class = "nav">
+        <li><a href=../index.html>Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="../HTML.html">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="../Quiz's/quiz.html">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="#">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="#home">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= ../CSS_content/syntax.html>Syntax</a>
+                <a href= ../CSS_content/backgrounds.html>Backgrounds</a>
+                <a href=../CSS_content/marginsPadding.html>Margins and Padding</a>
+                <a href=../CSS_content/heightWidth.html>Height and Width</a>
+                <a href=../CSS_content/boxing.html>Boxing Methodology</a>
+                <a href=../CSS_content/fonts.html>Fonts</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Advanced:</a>
+            <div class="dropdown-content">
+                <a href=../CSS_content/animations.html>Animations</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<br>
+
+<h1 id="h1">Backgrounds:</h1>
+<p id="main">
+    The CSS background properties are used to define the background effects for elements.<br>
+
+    <br><strong>CSS background properties:</strong>
+    <br><br>
+</p>
+<div style="width: 500px;margin-bottom: 150px;">
+    <ul>
+        <li> <strong> background-color </strong>  </li>
+        <li> <strong> background-image</strong> </li>
+        <li> <strong> background-repeat </strong></li>
+        <li> <strong> background-attachment </strong> </li>
+        <li> <strong>background-position</strong></li>
+    </ul>
+</div>
+<br>
+<h4>The following example basically manipulates the backgroud-color parameter of the CSS for the page. It does this
+using the Document Object Model...something that is not discussed in these tutorials.<br>
+<br> As you can see when your mouse hovers over this text the text color is changed to lightblue. This is also done
+using CSS.</h4>
+<xmp>
+    body {
+    background-color: lightblue;
+    }
+</xmp>
+<iframe src="../CSS_examples/12.6.html" style="width:1000px;height:600px;"></iframe>
+
+<h2>Background Image:</h2>
+
+<p id="main">
+    The <strong>background-image</strong> property specifies an image to use as the background of an element.
+
+    By default, the image is repeated so it covers the entire element.
+
+    The background image for a page can be set like this:<br>
+
+    <br>background-image: url(filePath.extension);<br>
+    background-image: url(websiteURL);
+
+</p>
+
+
+
+<xmp>
+    background-image: url(../CSS_examples/apple.png);
+    background-image: url(https://cdn.vox-cdn.com/thumbor/dd4ItU4F9YsmslPR2ntyZT1zg0M=/5x0:635x420/920x613/filters:focal(5x0:635x420)/cdn.vox-cdn.com/imported_assets/1153156/happymac_large_verge_medium_landscape.png);
+</xmp>
+<h3>Either line above would produce the same result as shown below, however, if the url for the image changes or removed, your background will be lost.</h3>
+<iframe src="../CSS_examples/background.html" style="width:1000px;height:600px;margin-bottom: 200px;"></iframe>
+</body>
+</html>
+

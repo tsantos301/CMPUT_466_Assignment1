@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>Animations:</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/animations.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body style="background-color: black">
+
+<div name = "navigation">
+    <ul class = "nav">
+        <li><a href=../index.html>Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="../HTML.html">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="../Quiz's/quiz.html">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="#">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="#home">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= ../CSS_content/syntax.html>Syntax</a>
+                <a href= ../CSS_content/backgrounds.html>Backgrounds</a>
+                <a href=../CSS_content/marginsPadding.html>Margins and Padding</a>
+                <a href=../CSS_content/heightWidth.html>Height and Width</a>
+                <a href=../CSS_content/boxing.html>Boxing Methodology</a>
+                <a href=../CSS_content/fonts.html>Fonts</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Advanced:</a>
+            <div class="dropdown-content">
+                <a href=../CSS_content/animations.html>Animations</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<br>
+
+<h1 id="animation-text" style="color: #eeeeee">Animations:</h1>
+<p id="main" style= "color: white">
+    An animation lets an element gradually change from one style to another.
+
+    You can change as many CSS properties you want, as many times you want.
+
+    To use CSS animation, you must first specify some keyframes for the animation.
+
+    Keyframes hold what styles the element will have at certain times.<br>
+    <br>
+    <i>The following are the main sections and ideas for this tutorial:</i>
+</p>
+
+<h2 style="color: #eeeeee">A simple example: </h2>
+<div class="no_resize" style="margin-bottom: 300px;">
+
+    <xmp style="color: white">
+        <style>
+            /* The animation code */
+            @keyframes example {
+                from {background-color: red;}
+                to {background-color: yellow;}
+            }
+
+            /* The element to apply the animation to */
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: example;
+                animation-duration: 4s;
+            }
+        </style>
+    </xmp>
+    <iframe src="../CSS_examples/animationExample.html">
+    </iframe>
+</div>
+<br>
+</body>
+</html>
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>HTML Tutorial</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+
+<div name = "navigation">
+    <ul class="nav">
+        <li><a href="http://localhost:63342/Assignment_1/index.html?_ijt=8h0rr6pd8gat8lbct8n0ka5dc7#">Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="http://localhost:63342/Assignment_1/HTML.html?_ijt=8h0rr6pd8gat8lbct8n0ka5dc7">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="#">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="#">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="#home">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= ../HTML_content/helloWorld.html>Hello World</a> <!--<a onclick="dispHelloWorld();" href=../CSS_content/animations.html>Hello World</a>-->
+                <a href= ../HTML_content/documentTypes.html>Document Types</a>
+                <a href=../HTML_content/commentsTags.html>Comments and Tags</a>
+
+                <a href=../HTML_content/links.html>Links</a>
+
+                <a href=../HTML_content/paraLists.html>Paragraphs and Lists</a>
+                <a href=../HTML_content/tables.html>Tables</a>
+                <a href=../HTML_content/forms.html>Forms</a>
+
+            </div>
+        </li>
+
+    </ul>
+</div>
+<br>
+
+<h1>Paragraphs and Lists: </h1>
+<p>
+    One of the most important HTML5 features and also one of the simplest is the paragraph element.
+    <br>
+    The paragraph element allows text to be displayed on a webpage that automatically adjusts to the
+    window size.
+    <br>
+    The page break element can be used to create new lines inside of a paragraph, since whitespace is automatically ommited.
+
+</p>
+<xmp class="example">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Understanding Whitespace </title>
+    </head>
+
+    <body>
+    <h1> Paragraph one without a break element. </h1>
+    <p>
+        This is the first line of text.
+        This is the second line of text.
+        This is the third line of text.
+    </p>
+
+    <h1>Paragraph two without a break element</h1>
+    <p>
+        This is the first line of text.<br>
+        This is the second line of text.<br>
+        This is the third line of text.
+    </p>
+
+    <body/>
+
+    <html/>
+
+</xmp>
+
+Running the above code gives us:
+<iframe src="../HTML_examples/paragraph.html" style='width:600px;height:300px'></iframe>
+<p align="middle">Open the iFrame in a new window to use the links</p>
+<br>
+
+<h2>Lists: </h2>
+<p>
+   Lists are an equally important HTML concept. They allow us to present organized information and
+    are the foundation for website navigation systems.<br>
+
+    Lists can be numbered using the "ol" tag or bulleted using the "ul" tag. The first stands for
+    ordered list and the second unordered list.
+</p>
+
+<xmp class="example">
+    <!DOCTYPE html>
+    <html>
+    <body>
+
+    <h2>An unordered HTML list</h2>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h2>An ordered HTML list</h2>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    </body>
+    </html>
+</xmp>
+
+<iframe src="../HTML_examples/lists.html" style='width:600px;height:300px'></iframe>
+
+
+
+</html>
