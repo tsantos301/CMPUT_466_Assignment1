@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3769dc25-18ae-4b31-8abf-cc5a8da9ff7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_content/basics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_content/functions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_content/helloWorld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_content/innerHTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_content/objects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3769dc25-18ae-4b31-8abf-cc5a8da9ff7d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -57,14 +45,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="2165" />
-          <entry key="html" value="11772" />
+          <entry key="html" value="11773" />
           <entry key="js" value="3990" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2165" />
-          <entry key="HTML" value="11772" />
+          <entry key="HTML" value="11773" />
           <entry key="JavaScript" value="3990" />
         </counts>
       </usages-collector>
@@ -86,11 +74,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="423">
+              <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -112,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="536">
               <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -300,7 +288,12 @@
             <path>
               <item name="Assignment_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assignment_1" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML_content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment_1" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript_content" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,8 +326,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.JavaScript.html">
     <configuration name="HTML.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Assignment_1/HTML.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="JavaScript.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Assignment_1/JavaScript.html">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Assignment_1/quiz_app/index.html">
@@ -351,9 +347,11 @@
       <item itemvalue="JavaScript Debug.HTML.html" />
       <item itemvalue="JavaScript Debug.testing.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.JavaScript.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.JavaScript.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.testing.html" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -389,24 +387,24 @@
       <workItem from="1538969381135" duration="907000" />
       <workItem from="1539188110683" duration="3791000" />
       <workItem from="1540833115353" duration="419000" />
-      <workItem from="1545432632197" duration="8377000" />
+      <workItem from="1545432632197" duration="9470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94174000" />
+    <option name="totallyTimeSpent" value="95267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12899336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861805" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -732,6 +730,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML_content/helloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript_content/helloWorld.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2380">
@@ -742,24 +747,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_content/helloWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="86">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="423">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
