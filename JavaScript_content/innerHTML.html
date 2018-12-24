@@ -2,9 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>Inner HTML</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="/Javascript/helloWorld.js"></script>
 </head>
 <body>
+
+<div name = "navigation">
+    <ul class = "nav">
+        <li><a href= ../index.html>Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="../HTML.html">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="#">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="../Quiz's/quiz.html">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="../JavaScript.html">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="#home">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= helloWorld.html>Hello World</a> <!--<a onclick="dispHelloWorld();" href=../CSS_content/animations.html>Hello World</a>-->
+                <a href= innerHTML.html>innerHTML</a>
+                <a href= basics.html>Basics</a>
+                <a href= functions.html>Functions</a>
+                <a href= objects.html>Objects</a>
+
+            </div>
+        </li>
+
+    </ul>
+</div>
+<br>
+<h1>How to manipulate HTML content using innerHTML</h1>
+<p> Each HTML object can be obtained using document.getElementById(id) and manipulated using  the .innerHTML property,
+which actually changes the HTML content.</p>
+
+<p>The previous hello world example is actually a perfect example of using these two properties together.
+When the button is clicked the HTML document is searched for an HTML element which has an ID of "changeText", then
+the HTML element associated with changeText has its value set to the string Hello World, using the innerHTML property.</p>
+
+<xmp class="example">
+    <p id = "changeText">Using JavaScript to change HTML content.</p>
+    <button onclick='document.getElementById("changeText").innerHTML = "Hello World!"'>Click to Change Text!</button>
+</xmp>
+
+<div style="text-align: center">
+    <p id = "changeText">Using JavaScript to change HTML content.</p>
+    <button onclick='document.getElementById("changeText").innerHTML = "Hello World"'>Click to Change Text!</button>
+</div>
 
 </body>
 </html>
