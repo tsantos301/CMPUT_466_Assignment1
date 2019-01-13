@@ -46,7 +46,12 @@ function loadNextQuestion () {
         score += 1;
     }
     else{
-        wrongArray.push(currentQuestion+1);
+        wrongArray.push("Problem Number "+ (currentQuestion+1)); //removing zero index so its easy to understand for readers
+        if(questions[currentQuestion].answer==1)var alphaAnswer="A";
+        if(questions[currentQuestion].answer==2)var alphaAnswer="B";
+        if(questions[currentQuestion].answer==3)var alphaAnswer="C";
+        if(questions[currentQuestion].answer==4)var alphaAnswer="D";
+        wrongArray.push("Correct Answer: "+alphaAnswer);
     }
 
     selectedOption.checked = false;

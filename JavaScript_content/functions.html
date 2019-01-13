@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>Functions</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="/Javascript/helloWorld.js"></script>
 </head>
 <body>
 
+<div name = "navigation">
+    <ul class = "nav">
+        <li><a href= ../index.html>Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="../HTML.html">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="../JavaScript.html">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="../Quiz's/quiz.html">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="../Quiz's/quizJavaScript.html">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="../contact.html">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= helloWorld.html>Hello World</a> <!--<a onclick="dispHelloWorld();" href=../CSS_content/animations.html>Hello World</a>-->
+                <a href= innerHTML.html>innerHTML</a>
+                <a href= basics.html>Basics</a>
+                <a href= functions.html>Functions</a>
+                <a href= objects.html>Objects</a>
+
+            </div>
+        </li>
+
+    </ul>
+</div>
+<br>
+<h1>Functions</h1>
+<p> Functions are a block of code that executes a specfic task. Functions can be reused over and over and are executed when they are called.</p>
+
+<p>The basic template for creating a function is as follows:</p>
+
+<xmp class="example">
+    function functionName(parameter1, parameter2){
+        return parameter1+parameter2;
+    }
+</xmp>
+
+<p>A JavaScript function is created using the function keyword, followed by a name, followed by parentheses ().
+    The parentheses can include parameter names separated by commas:
+    (parameter1, parameter2, ...), however the paranthesis can also be empty if no parameters are needed to be
+    passed into the function.
+
+    All code which is executed is placed inside curly brackets: {}</p>
+<p> During execution if a return statement is reached, the function will stop executing.
+
+    Functions often compute a return value. The return value is "returned" back to the "caller" but is not required.
+
+</p>
 </body>
 </html>

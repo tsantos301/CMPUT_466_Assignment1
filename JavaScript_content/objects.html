@@ -2,9 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href = "../CSS/navigation.css" rel="stylesheet" type="text/css">
+    <title>Objects</title>
+    <link href = "../CSS/welcome.css" rel="stylesheet" type="text/css">
+    <link href = "../CSS/tutorialContent.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="/Javascript/helloWorld.js"></script>
 </head>
 <body>
 
+<div name = "navigation">
+    <ul class = "nav">
+        <li><a href= ../index.html>Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tutorials</a>
+            <div class="dropdown-content">
+                <a href="../HTML.html">HTML</a>
+                <a href="../CSS.html">CSS</a>
+                <a href="../JavaScript.html">JavaScript</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Tests</a>
+            <div class="dropdown-content">
+                <a href="../Quiz's/quiz.html">HTML Test</a>
+                <a href="../Quiz's/quizCSS.html">CSS Test</a>
+                <a href="../Quiz's/quizJavaScript.html">JavaScript Test</a>
+            </div>
+        </li>
+        <li id="contact"><a href="../contact.html">Contact</a></li>
+    </ul>
+</div>
+<div id="html nav">
+    <ul class="nav">
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropButton">Basics:</a>
+            <div class="dropdown-content">
+                <a href= helloWorld.html>Hello World</a> <!--<a onclick="dispHelloWorld();" href=../CSS_content/animations.html>Hello World</a>-->
+                <a href= innerHTML.html>innerHTML</a>
+                <a href= basics.html>Basics</a>
+                <a href= functions.html>Functions</a>
+                <a href= objects.html>Objects</a>
+
+            </div>
+        </li>
+
+    </ul>
+</div>
+<br>
+<h1>Objects</h1>
+<p> Objects in code are just like objects in real life. They have properties, values assosciated with them and do certain tasks</p>
+<p>In real life a car is an object. A car has properties such as paint color, rim size, vehicle weight, etc.
+It also has jobs that it performs such driving, braking, starting, stopping, etc.</p>
+<p>Objects in code store properties as feilds of the object and tasks that objects perform as functions.</p>
+<p>Objects can also been seen as variables except that they can hold many values instead of just one.In JavaScript
+objects are stored as key value pairs as follows:</p>
+<xmp>
+    var car = {type:"Mercedes", model:"CLA", color:"white"};
+</xmp>
+
+<h1> "this" Keyword</h1>
+<p>One of the typically more confusing things in Object Oriented Languages is the "this" keyword.</p>
+<p>"this" has different values depending on where it is being used. In general it is used as follows:</p>
+<ul class="no_resize">
+    <li>Inside a method, this refers to the owner object.</li>
+    <li>Alone, this refers to the global object.</li>
+    <li>In a function, this refers to the global object.</li>
+</ul>
 </body>
 </html>
