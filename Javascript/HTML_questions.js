@@ -24,8 +24,8 @@ var questions = [{
     "question": "Inline elements are normally displayed without starting a new line?",
     "option1": "True",
     "option2": "False",
-    "option3": "True",
-    "option4": "False",
+    "option3": "",
+    "option4": "",
     "answer": "1"
 }, {
     "question": " An <iframe> is used to do what in a web page?",
